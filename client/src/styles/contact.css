@@ -1,0 +1,118 @@
+.contact_container {
+    background-color: #fff;
+    /* max-width: 960px; */
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid rgba(0,0,0,0.04);
+    /* border-radius: 5px;
+    box-shadow: 0px 5px 21px -14px rgb(0 0 0 / 14%); */
+    padding: 30px 0px;
+}
+
+.contact_header h1 {
+    font-size: 64px;
+    color: #333;
+}
+
+.contact_header p {
+    font-size: 34px;
+    color: #777;
+}
+
+h2.contact_us {
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+}
+
+.contact_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    /* flex: 4; */
+    gap: 0px;
+}
+
+.contact_content h3 {
+    font-size: 20px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+.contact_content p {
+    font-size: 18px;
+    color: #808080;
+}
+
+/* .contact_form {
+    border-top: 1px solid rgba(0,0,0,0.04);
+} */
+
+.name_email_container {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.flex_name {
+    flex: 4;
+}
+
+.flex_email {
+    flex: 4;
+}
+
+.contact_form h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #777;
+    padding: 20px 0px;
+}
+
+.contact_form label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact_form input {
+    width: 100%;
+    padding: 16px 12px;
+    margin-bottom: 35px;
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+
+.contact_form textarea {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.contact_form input[type=button] {
+    width: 30%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: orange;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ffd369;
+    border-radius: 100px;
+}
+
+.contact_form input[type=button]:hover {
+    color: #fff;
+}

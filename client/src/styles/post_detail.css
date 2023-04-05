@@ -1,0 +1,51 @@
+.post_detail_container {
+    width: calc(90% - 260px);
+    margin: 60px auto;
+}
+.post_detail_header {
+    margin-bottom: 10px;
+}
+
+.post_detail_header h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #333;margin-bottom: auto;
+}
+
+.author_section {
+    display: flex;
+    gap: 30px;
+    
+    margin-bottom: 10px;
+}
+
+.author_section p {
+    font-size: 15px;
+    color: #777;
+}
+
+.author_section p.author_name {
+    font-weight: 600;
+}
+
+.author_section p.date_published {
+    font-size: 14px;
+}
+
+.post_detail_container .cover {
+    height: 300px;
+    width: 100%;
+}
+
+.post_detail_container .cover img {
+    border-radius: 2px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post_detail_container .content p {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+}

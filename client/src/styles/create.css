@@ -1,0 +1,43 @@
+.create_form_container {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.04);
+    border-radius: 5px;
+    box-shadow: 0px 5px 21px -14px rgb(0 0 0 / 14%);
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.create_form_header {
+    text-align: center;
+}
+
+.create_form_header h1 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.create_form_container input {
+    font-size: 16px;
+    color: #777;
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #5552;
+    border-radius: 3px;
+}
+
+.create_form_container input[type=button] {
+    cursor: pointer;
+    background-color: rgb(3, 101, 146);
+    color: #fff;
+    margin-top: 15px;
+}
+
+.create_form_container input[type=button]:hover {
+    opacity: 0.8;
+}

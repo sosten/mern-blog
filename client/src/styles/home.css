@@ -1,0 +1,50 @@
+.header_container {
+    background-color: #334d;
+    background-image: url('../images/bana.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 50vh;
+}
+
+.home_header {
+    padding-top: 100px;
+    padding-left: 30px;
+    background-color: #5555;
+    color: #fff;
+    height: inherit;
+}
+
+.home_header p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #eee;
+    line-height: 0.9;
+}
+
+.home_header h1 {
+    line-height: 0.9;
+    font-size: 35px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.home_header a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #ffd369;
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 30px;
+    margin-top: 20px;
+}
+
+.home_header a:hover {
+    opacity: 0.8;
+}

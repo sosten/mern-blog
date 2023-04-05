@@ -1,0 +1,4 @@
+.layout {
+    width: calc(90% - 90px); /* subtracts margin from column width */
+    margin: 30px auto;
+}

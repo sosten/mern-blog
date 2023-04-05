@@ -1,0 +1,85 @@
+.about_header h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #444;
+}
+
+.about_header p {
+    font-size: 28px;
+    color: #444;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about_t {
+    flex: 6;
+}
+
+.about_t sup {
+    font-size: 16px;
+    color: inherit;
+}
+
+.about_t h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #222;
+}
+
+.about_t_cont {
+    flex: 6;
+}
+
+.about_t_cont h2 {
+    font-size: 38px;
+    color: #222;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.about_t_cont p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+}
+
+h2.founder_header {
+    font-size: 48px;
+    color: #222;
+    font-weight: 500;
+}
+
+.about_founders {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about_founders h2 {
+    font-size: 42px;
+    color: #333;
+    font-weight: 500;
+}
+
+.founder_card {
+    width: 100%;
+    flex: 5;
+}
+
+.founder_card img {
+    width: 100%;
+}
+
+.founder_details h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+    line-height: 0.9;
+}
