@@ -18,3 +18,18 @@ userRouter.post('/user', async(req, res) => {
         password: user.password
     });
 })
+
+userRouter.post('/login', async(req, res) =>{
+    const user = await User.findOne({email: req.body.email});
+    if(user){
+        res.send({
+            _id: user._id,
+            fullName: user.fullName,
+            email: user.email,
+            password: user.password
+        })
+    }
+    res.status(401).send({message: 'Invalied Email or Password'})
+})
+
+export default userRouter;

@@ -40,13 +40,13 @@
     border-radius: 3px;
 }
 
-.login_form_container input[type=button] {
+.login_form_container input[type=submit] {
     cursor: pointer;
     background-color: rgb(3, 101, 146);
     color: #fff;
 }
 
-.login_form_container input[type=button]:hover {
+.login_form_container input[type=submit]:hover {
     opacity: 0.8;
 }
 

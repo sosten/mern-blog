@@ -31,13 +31,13 @@
     border-radius: 3px;
 }
 
-.form_container input[type=button] {
+.form_container input[type=submit] {
     cursor: pointer;
     background-color: rgb(3, 101, 146);
     color: #fff;
 }
 
-.form_container input[type=button]:hover {
+.form_container input[type=submit]:hover {
     opacity: 0.8;
 }
 
