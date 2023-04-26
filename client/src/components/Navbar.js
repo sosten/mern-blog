@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
       { userInfo ? (
           <ul className='right_links'>
-            <li><Link to={'/'}>{userInfo.fullName}</Link></li>
+            <li><Link to={'/user_profile'}>{userInfo.fullName}</Link></li>
             <li><Link onClick={handleLogout}>Logout</Link></li>
           </ul>
       ) : (
